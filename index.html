@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Turkish.js</title>
+    <meta charset="UTF-8">
+    <script src="Turkish.js"></script>
+</head>
+<body>
+
+<script>
+
+    // require("Turkish");
+
+    console.log(makeGenitive("Öykü", { proper_noun : true } ));
+    console.log(makeDative("Fatma", { proper_noun : true } ));
+    console.log(makeDative("Yasin", { proper_noun : true } ));
+    console.log(makeDative("ALİ", { proper_noun : true } ));
+    console.log(makeAblative("Ali", { proper_noun : true } ));
+    console.log(makeAccusative("Kaliningrad", { proper_noun : true } ));
+
+    console.log(makeGenitive("ağaç", { proper_noun : false } ));
+    console.log(makeAccusative("erik", { proper_noun : false } ));
+    console.log(makeAccusative("Erik", { proper_noun : true } ));
+
+    console.log(possessiveAffix("kavanoz", { person : "1", quantity : "singular" } ));
+    console.log(possessiveAffix("kavanoz", {  person : "2", quantity : "singular"} ));
+    console.log(possessiveAffix("kavanoz", {  person : "3", quantity : "singular"} ));
+
+    console.log(possessiveAffix("halter", {  person : "1", quantity : "plural"} ));
+    console.log(possessiveAffix("halter", {  person : "2", quantity : "plural"} ));
+    console.log(possessiveAffix("halter", {  person : "3", quantity : "plural"} ));
+
+    console.log(possessiveAffix("Kenya", {  person : "3", quantity : "plural"} ));
+        
+</script>
+
+</body>
+</html>
