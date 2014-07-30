@@ -1,7 +1,7 @@
 Turkish.js
 ==========
 
-# Turkish Suffix Library for Javascript
+### Turkish Suffix Library for Javascript
 
 ## Install 
 
