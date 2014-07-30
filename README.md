@@ -31,10 +31,12 @@ Turkish.js
     console.log(possessiveAffix("Kenya", {  person : "3", quantity : "plural"} ));
         
 # Output
-  
-    Öykü'nün
-    Fatma'ya
-    Ali'den
+    
+    Öykü'nün 
+    Fatma'ya 
+    Yasin'e 
+    ALİ'YE 
+    Ali'den 
     Kaliningrad'ı
     ağacın
     eriği
@@ -45,7 +47,7 @@ Turkish.js
     halterimiz
     halteriniz
     halterleri
-    Kenyaları
+    Kenyaları 
 
 ## Turkish Grammar
  * Turkish is a highly agglutinative language, i.e., Turkish words have many grammatical suffixes or endings that determine meaning. Turkish vowels undergo vowel harmony. When a suffix is attached to a stem, the vowel in the suffix agrees in frontness or backness and in roundedness with the last vowel in the stem. Turkish has no gender.
