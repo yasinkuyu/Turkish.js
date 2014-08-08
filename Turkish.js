@@ -2,6 +2,10 @@
  * Yasin Kuyu
  * twitter/yasinkuyu
  * 01/08/2014
+ *
+ * Turkish Suffix Library for Javascript
+ * Türkçe Çekim ve Yapım Ekleri
+ *
  */
 'use strict';
 
