@@ -139,17 +139,18 @@
             returndata['consonant'] = true;
 
             if (HARD_CONSONANTS.contains(getLastLetter))
+            {
                 returndata['hard_consonant'] = true;
 
-            returndata["discontinious_hard_consonant_for_suffix"] = false;
-
-            if (DISCONTINIOUS_HARD_CONSONANTS_AFTER_SUFFIX.contains(getLastLetter))
-            {
-                returndata["discontinious_hard_consonant_for_suffix"] = true;
-                getLastLetter = SOFTEN_DHC_AFTER_SUFFIX[DISCONTINIOUS_HARD_CONSONANTS_AFTER_SUFFIX.lastIndexOf(getLastLetter)];
-                returndata["soften_consonant_for_suffix"] = getLastLetter;
+                returndata["discontinious_hard_consonant_for_suffix"] = false;
+    
+                if (DISCONTINIOUS_HARD_CONSONANTS_AFTER_SUFFIX.contains(getLastLetter))
+                {
+                    returndata["discontinious_hard_consonant_for_suffix"] = true;
+                    getLastLetter = SOFTEN_DHC_AFTER_SUFFIX[DISCONTINIOUS_HARD_CONSONANTS_AFTER_SUFFIX.lastIndexOf(getLastLetter)];
+                    returndata["soften_consonant_for_suffix"] = getLastLetter;
+                }
             }
-
         }
         
         return returndata;
