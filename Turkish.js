@@ -407,14 +407,6 @@
         return word;
     }
 
-    String.prototype.makeLower = function(word) {
-         return word.replace("İ", "i").replace("I", "ı").toLowerCase();
-    };
-
-    String.prototype.makeLower = function() {
-         return this.replace("İ", "i").replace("I", "ı").toLowerCase();
-    };
-
     String.prototype.isUpper = function() {
         var word = this;
         word = word.replace("ı", "i").replace("İ", "I").replace("ş", "s").replace("Ş", "S")
