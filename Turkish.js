@@ -100,7 +100,7 @@
             else if (returndata.letter == "a")
                 returndata = { letter : "e", tone : "back" };
             else if (returndata.letter == "u")
-                returndata = { letter : "ö", tone : "back" };
+                returndata = { letter : "ü", tone : "back" };
         }
         
         if (returndata == "")
