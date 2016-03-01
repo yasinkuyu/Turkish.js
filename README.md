@@ -61,5 +61,8 @@ Turkish.js
       C# Version
       https://github.com/yasinkuyu/Turkish.cs
       
+      PHP Version
+      https://github.com/yasinkuyu/Turkish.php
+      
       Python Version
       https://github.com/miklagard/Turkish-Suffix-Library
